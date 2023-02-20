@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Westjet</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+  </head>
+  <body>
+    <div class="hero">
+      <video autoplay loop muted plays-inline class="back">
+        <source
+          src="./Gallery/istockphoto-1336045258-640_adpp_is.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <nav>
+        <!-- <img src="./Gallery/logo3.jpg" class="logo"  alt=""> -->
+        <h2 class="my-element">west<span class="clr">jet</span></h2>
+        <div class="navigation"> 
+        <ul class="row ">
+          <li><a href="#">Home</a></li>
+          <li><a href="#AboutUs">About Us</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+          <li><a href="#ContactUs">Contact Us</a></li>
+        </ul>
+      </div>
+        <div class="hamburger">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+      </div>
+      </nav>
+
+      <div class="Content">
+        <h1>
+          Are You Ready<br />
+          <span class="hclr">For Take-off?</span>
+        </h1>
+        <a href="#ContactUs">Registration</a>
+        <a href="#AboutUs">learn More</a>
+      </div>
+    </div>
+
+    <section class="sec-2" id="Gallery">
+      <div class="cnr">
+        <h2>Aircrafts</h2>
+        <img src="./Gallery/aircraft1.png" class="img" alt="" />
+        <img src="./Gallery/aircraft2.png" class="img" alt="" />
+        <img src="./Gallery/aircraft3.png" class="img" alt="" />
+        <img src="./Gallery/aircraft4.png" class="img" alt="" />
+      </div>
+      <div class="nav row ">
+        <button onclick="goPrev()"><</button>
+        <button onclick="gonext()">></button>
+      </div>
+    </section>
+
+    <section class="sec-3" id="Services">
+      <!-- <div class="container"> -->
+      <div class="cart">
+        <div class="row jsc">
+          <div class="col-50 row" >
+            <div class="col-50-1"     >
+              <img src="./Gallery/Cart1.jpg" alt=""  />
+            </div>
+            <div class=" bg-green">
+              <h2>FLIGHT SIMULATION</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                velit maxime reprehenderit deserunt magnam, sed atque eius
+                provident perspiciatis nobis!
+              </p>
+              <div class="Content">
+              <a href="#">learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-50 row">
+            <div class="col-50-1">
+              <img src="./Gallery/Cart2.jpg" alt="" />
+            </div>
+            <div class=" bg-green">
+              <h2>CABIN TRAINNING</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+                amet nobis temporibus nesciunt ipsa fugiat vero dicta, minus qui
+                perferendis.
+              </p>
+              <div class="Content">
+                <a href="#">learn More</a>
+                </div>
+                          </div>
+          </div>
+        </div>
+      </div>
+      <div class="cart">
+        <div class="row jsc">
+          <div class="col-50 row">
+            <div class="col-50-1">
+              <img src="./Gallery/Cart3.jpg" alt="" />
+            </div>
+            <div class=" bg-green">
+              <h2>COCKPIT TRAINNING</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                velit maxime reprehenderit deserunt magnam, sed atque eius
+                provident perspiciatis nobis!
+              </p>
+              <div class="Content">
+                <a href="#">learn More</a>
+                </div>        
+                  </div>
+          </div>
+          <div class="col-50 row">
+            <div class="col-50-1 ">
+              <img src="./Gallery/Cart4.jpg" alt="" />
+            </div>
+            <div class=" bg-green">
+              <h2>FLIGHT INSTURUCTOR</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+                amet nobis temporibus nesciunt ipsa fugiat vero dicta, minus qui
+                perferendis.
+              </p>
+              <div class="Content">
+                <a href="#">learn More</a>
+                </div>
+                          </div>
+          </div>
+
+         
+        </div>
+      </div>
+    </section>
+
+<section class="sec-4" id="AboutUs">
+    <div class="container">
+    <div class="cart">
+        <div class="row jsc">
+            <div class="col-25"  >
+                <i class="fa-solid fa-plane"></i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <h3>SINCE 1994</h3>
+            </div>
+            <div class="col-25">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <H3>800 STUDENTS</H3>
+
+            </div>
+            <div class="col-25">
+                <i class="fa-solid fa-road"></i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <H3>15.400M<sup>2</sup></H3>
+
+            </div>
+            <div class="col-25">
+                <i class="fa-solid fa-plane-arrival"></i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <H3>22 SIMULATORS</H3>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section class="sec-5">
+    <div class="container">
+        <h3>
+            WANT TO BECOME A PILOT?
+        </h3>
+        <P>The charm of loving any profession and desiring to be in the same profession makes us ambitious. Ambition brings us great zeal and enthusiasm for accomplishing our goals. It keeps us motivating to us till we achieve the goal of our life.</P>
+     <div class="Content">
+        <a href="#ContactUs">Registration</a>
+    </div>
+    </div>
+</section>
+
+
+<section class="sec-6" id="ContactUs">
+  <div class="container">
+      <h3>
+        Contact Me
+
+      </h3>
+      <P>        If you require any further information, please feel free to contact me.
+      </P>
+  <div class="newsletter">
+    <input  type="text"     placeholder="Enter Your Email!"  />
+    <input type="button" value="Send" />
+  </div>
+  </div>
+</section>
+
+
+
+<footer>
+    <div class="container">
+        <div class="row jsc">
+        <div class="col-20">
+<ul><li class="fs">About Us</li></ul>
+        </div>
+        <div class="col-20">
+            <ul><li class="fs">Simulation</li>
+            <li>Cabin training Devices</li>
+        <li>Aircrafts</li>
+    <li>FTD</li>
+<li>Full Fight Simulators</li> 
+<li>CBT</li></ul>
+        </div>
+        <div class="col-20">
+            <ul><li class="fs">Training</li>
+            <li>Cabin Crew Training</li>
+        <li>Cockpit Crew Training</li></ul>
+        </div>
+        <div class="col-20">
+            <ul><li class="fs">Scedule</li></ul>
+        </div>
+        <div class="col-20">
+            <ul><li class="fs">Contact</li></ul>
+        </div>
+    </div>
+    <p>@2023 Westjet Training Center</p>
+    </div>
+</footer>
+
+<script>
+  document.querySelector('.hamburger').addEventListener('click', (e) => {
+      e.preventDefault();
+
+      document.querySelector('.navigation').classList.toggle('active');
+
+  });
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<script>
+  const slide = document.querySelectorAll(".img");
+  console.log(slide) 
+   let cont = 0;
+
+  slide.forEach((img, index) => {
+    img.style.left = `${index * 100}%`;
+  });
+  const slideImage = () => {
+    slide.forEach((img) => {
+      img.style.transform = `translateX(-${cont * 100}%)`;
+    });
+  };
+  const goPrev = () => {
+    cont--;
+    if (cont < slide.length - 1) {
+      cont = 0;
+    }
+    slideImage();
+  };
+  const gonext = () => {
+    console.log(slide.length);
+    cont++;
+    if (cont > slide.length - 1) {
+      cont = 0;
+    }
+    slideImage();
+  }; 
+</script> 
+
+
+  </body>
+</html>
